@@ -1,0 +1,33 @@
+name: web_api_2151170554
+description: "Dự án Web API quản lý cửa hàng online - Đề 02"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Thư viện hỗ trợ Backend/API
+  shelf: ^1.4.1
+  shelf_router: ^1.1.4
+  mysql1: ^0.20.0
+  bcrypt: ^1.1.3
+  dart_jsonwebtoken: ^2.4.2
+  dotenv: ^4.2.0
+  http: ^1.1.0
+  shared_preferences: ^2.2.0 # Để lưu Token sau khi đăng unmap
+
+  # Icons mặc định
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
